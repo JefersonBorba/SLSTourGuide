@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_background"
+    tools:context="com.example.jefer.slstourguide.MainActivity">
+
+    <TextView
+        android:id="@+id/activities"
+        style="@style/CategoryStyle"
+        android:background="@color/menu_color"
+        android:text="@string/category_activities" />
+
+    <TextView
+        android:id="@+id/attractions"
+        style="@style/CategoryStyle"
+        android:background="@color/menu_color"
+        android:text="@string/category_attractions" />
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/CategoryStyle"
+        android:background="@color/menu_color"
+        android:text="@string/category_food" />
+
+    <TextView
+        android:id="@+id/shop"
+        style="@style/CategoryStyle"
+        android:background="@color/menu_color"
+        android:text="@string/category_shopping" />
+
+</LinearLayout>

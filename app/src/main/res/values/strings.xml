@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SLS Tour Guide</string>
+
+<!-- Activities category [CHAR LIMIT=20] -->
+<string name="category_activities">Activities</string>
+
+<!-- Food Category [CHAR LIMIT=20] -->
+<string name="category_food">Food</string>
+
+<!-- Attractions category [CHAR LIMIT=20] -->
+<string name="category_attractions">Attractions</string>
+
+<!-- Shop category[CHAR LIMIT=20] -->
+<string name="category_shopping">Shopping</string>
+
+    <!-- Attractions Names -->
+    <string name="barrinha_beach">Barrinha Beach</string>
+    <string name="nereidas_beach">Nereidas Beach</string>
+    <string name="ondinas_beach">Ondinas Beach</string>
+    <string name="dede_square">Dedé Serpa Square</string>
+    <string name="sobrado_farm">Sobrado Farm</string>
+    <string name="camping">Camping</string>
+    <!-- Attractions Descriptions -->
+    <string name="barrinha_des"></string>
+    <string name="nereidas_des"></string>
+    <string name="ondinas_des"></string>
+    <string name="dede_des"></string>
+    <string name="sobrado_des"></string>
+    <string name="camping_des"></string>
+    <!-- Activities Names -->
+    <string name="public_library">Public Library</string>
+    <string name="bola_na_rede">Bola na Rede</string>
+    <string name="armazem">Armazém da Praia</string>
+    <string name="caminho_pomerano">Caminho Pomerano</string>
+    <!-- Activities Descriptions -->
+    <string name="library_des">Barrinha Beach</string>
+    <string name="bola_des">Nereidas Beach</string>
+    <string name="armazem_des">Ondinas Beach</string>
+    <string name="pomerano_des">Dedé Serpa Square</string>
+    <!-- Shop Names -->
+    <string name="casa_das_novidades">Casa das Novidades</string>
+    <string name="boticario">O Boticário</string>
+    <string name="klasen">Lojas Klasen</string>
+    <string name="delta_sul">Delta Sul</string>
+    <string name="pompeia">Lojas Pompéia</string>
+    <!-- Shop Descriptions -->
+    <string name="casa_das_novidades_des">Barrinha Beach</string>
+    <string name="boticario_des">Nereidas Beach</string>
+    <string name="klasen_des">Ondinas Beach</string>
+    <string name="delta_des">Dedé Serpa Square</string>
+    <string name="pompeia_des"></string>
+    <!-- Food Names -->
+    <string name="comilao">Comilão</string>
+    <string name="pinz_restaurant">Pinz Restaurant</string>
+    <string name="lourenciano_restaurant">Lourenciano Restaurant</string>
+    <string name="free_lanches">Free Lanches</string>
+    <!-- Food Descriptions -->
+    <string name="comilão_des">Barrinha Beach</string>
+    <string name="pinz_des">Nereidas Beach</string>
+    <string name="lourenciano_des">Ondinas Beach</string>
+    <string name="free_lanches_des">Dedé Serpa Square</string>
+
+</resources>
