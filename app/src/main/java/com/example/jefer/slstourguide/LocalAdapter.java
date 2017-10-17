@@ -21,7 +21,9 @@ import java.util.ArrayList;
  */
 public class LocalAdapter extends ArrayAdapter<Local>  {
 
-    /** Resource ID for the background color for this list of words */
+    /**
+     * Resource ID for the background color for this list of places
+     */
     private int mColorResourceId;
 
     /**
@@ -29,7 +31,7 @@ public class LocalAdapter extends ArrayAdapter<Local>  {
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
      * @param locals is the list of {@link Local}s to be displayed.
-     * @param colorResourceId is the resource ID for the background color for this list of words
+     * @param colorResourceId is the resource ID for the background color for this list of places
      */
     public LocalAdapter(Context context, ArrayList<Local> locals, int colorResourceId) {
         super(context, 0, locals);
@@ -42,26 +44,27 @@ public class LocalAdapter extends ArrayAdapter<Local>  {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.places_list, parent, false);
+                    R.layout.full_list, parent, false);
         }
 
         // Get the {@link Local} object located at this position in the list
         Local currentLocal = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID description_text_view.
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.miwok_text_view);
+        TextView descriptionTextView = listItemView.findViewById(R.id.description_text_view);
         // Get the places descriptions from the currentLocal object and set this text on
         // the Description TextView.
         descriptionTextView.setText(currentLocal.getPlaceDescription());
 
         // Find the TextView in the list_item.xml layout with the ID name_text_view.
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.default_text_view);
+        TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
         // Get the place name from the currentLocal object and set this text on
         // the name TextView.
         nameTextView.setText(currentLocal.getPlaceName());
 
         // Find the ImageView in the list_item.xml layout with the ID image.
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        ImageView imageView = listItemView.findViewById(R.id.image);
+        imageView.setImageResource(currentLocal.getImageResourceId());
 
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);

@@ -21,43 +21,43 @@
     <string name="sobrado_farm">Sobrado Farm</string>
     <string name="camping">Camping</string>
     <!-- Attractions Descriptions -->
-    <string name="barrinha_des"></string>
-    <string name="nereidas_des"></string>
-    <string name="ondinas_des"></string>
-    <string name="dede_des"></string>
-    <string name="sobrado_des"></string>
-    <string name="camping_des"></string>
+    <string name="barrinha_des">1st of the 3 São Lourenço do Sul beaches.</string>
+    <string name="nereidas_des">2nd of the 3 São Lourenço do Sul beaches.</string>
+    <string name="ondinas_des">3rd of the 3 São Lourenço do Sul beaches.</string>
+    <string name="dede_des">Central SLSs Square.</string>
+    <string name="sobrado_des">Part of SLSs history.</string>
+    <string name="camping_des">Main camping site for tourists.</string>
     <!-- Activities Names -->
     <string name="public_library">Public Library</string>
     <string name="bola_na_rede">Bola na Rede</string>
     <string name="armazem">Armazém da Praia</string>
     <string name="caminho_pomerano">Caminho Pomerano</string>
     <!-- Activities Descriptions -->
-    <string name="library_des">Barrinha Beach</string>
-    <string name="bola_des">Nereidas Beach</string>
-    <string name="armazem_des">Ondinas Beach</string>
-    <string name="pomerano_des">Dedé Serpa Square</string>
+    <string name="library_des">City library and museum.</string>
+    <string name="bola_des">City futsal gymnasium.</string>
+    <string name="armazem_des">Summer main night spot for drinking.</string>
+    <string name="pomerano_des">Path made by pomeraniam people.</string>
     <!-- Shop Names -->
     <string name="casa_das_novidades">Casa das Novidades</string>
     <string name="boticario">O Boticário</string>
     <string name="klasen">Lojas Klasen</string>
-    <string name="delta_sul">Delta Sul</string>
+    <string name="delta_sul">Lojas DeltaSul</string>
     <string name="pompeia">Lojas Pompéia</string>
     <!-- Shop Descriptions -->
-    <string name="casa_das_novidades_des">Barrinha Beach</string>
-    <string name="boticario_des">Nereidas Beach</string>
-    <string name="klasen_des">Ondinas Beach</string>
-    <string name="delta_des">Dedé Serpa Square</string>
-    <string name="pompeia_des"></string>
+    <string name="casa_das_novidades_des">One of the main clothing stores.</string>
+    <string name="boticario_des">Main SLSs perfumary.</string>
+    <string name="klasen_des">One of the leading furniture stores.</string>
+    <string name="delta_des">One of the leading furniture stores.</string>
+    <string name="pompeia_des">One of the main clothing stores.</string>
     <!-- Food Names -->
     <string name="comilao">Comilão</string>
     <string name="pinz_restaurant">Pinz Restaurant</string>
     <string name="lourenciano_restaurant">Lourenciano Restaurant</string>
     <string name="free_lanches">Free Lanches</string>
     <!-- Food Descriptions -->
-    <string name="comilão_des">Barrinha Beach</string>
-    <string name="pinz_des">Nereidas Beach</string>
-    <string name="lourenciano_des">Ondinas Beach</string>
-    <string name="free_lanches_des">Dedé Serpa Square</string>
+    <string name="comilão_des">One of the top eateries in town</string>
+    <string name="pinz_des">One of the mains citys restaurant.</string>
+    <string name="lourenciano_des">One of the mains citys restaurant.</string>
+    <string name="free_lanches_des">One of the top eateries in town on the summer.</string>
 
 </resources>

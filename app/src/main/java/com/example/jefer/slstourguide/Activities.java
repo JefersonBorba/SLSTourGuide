@@ -6,10 +6,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by jefer on 9/30/2017.
- */
-
 public class Activities extends AppCompatActivity {
 
     @Override
@@ -19,12 +15,17 @@ public class Activities extends AppCompatActivity {
 
         // Create a list of places
         final ArrayList<Local> locals = new ArrayList<Local>();
-        locals.add(new Local("test", "test", R.drawable.biblio));
-
-
+        locals.add(new Local(getString(R.string.public_library), getString(R.string.library_des),
+                R.drawable.biblio));
+        locals.add(new Local(getString(R.string.bola_na_rede), getString(R.string.bola_des),
+                R.drawable.bola));
+        locals.add(new Local(getString(R.string.armazem), getString(R.string.armazem_des),
+                R.drawable.armazem));
+        locals.add(new Local(getString(R.string.caminho_pomerano), getString(R.string.pomerano_des),
+                R.drawable.pomerano));
         // Create an {@link LocalAdapter}, whose data source is a list of {@link Local}. The
         // adapter knows how to create list items for each item in the list.
-        LocalAdapter adapter = new LocalAdapter(this, locals, R.color.category_activities);
+        LocalAdapter adapter = new LocalAdapter(this, locals, R.color.menu_color);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

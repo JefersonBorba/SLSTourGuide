@@ -1,10 +1,6 @@
 package com.example.jefer.slstourguide;
 
 /**
- * Created by jefer on 9/30/2017.
- */
-
-/**
  * {@link Local} represent the places where you could go
  */
 public class Local {
@@ -19,7 +15,7 @@ public class Local {
     private int mImageResourceId;
 
     /**
-     * Create a new Word object.
+     * Create a new Local object.
      *
      * @param placeName is the name of the place
      * @param placeDescription is the description of the place
